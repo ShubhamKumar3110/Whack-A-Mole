@@ -13,7 +13,7 @@ function randomHole(holes) {
     const idx = Math.floor(Math.random() * holes.length);
     const hole = holes[idx];
     if (hole === lastHole) {
-        console.log('Ah nah thats the same one bud');
+        console.log('thats the same one');
         return randomHole(holes);
     }
     lastHole = hole;
@@ -35,7 +35,7 @@ function startGame() {
     timeUp = false;
     score = 0;
     peep();
-    setTimeout(() => timeUp = true, 10000)
+    setTimeout(() => timeUp = true, 10000);
 }
 
 function bonk(e) {
