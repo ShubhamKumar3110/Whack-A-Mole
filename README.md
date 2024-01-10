@@ -23,7 +23,7 @@ page.
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot2.png)
 
 ### Links
 
